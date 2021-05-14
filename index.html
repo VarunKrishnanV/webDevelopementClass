@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-
     <!-- <style>
         mark{
             background-color: orange;
             font-size: 20px;
         }
     </style> -->
-
 </head>
+
 <body>
-    
+
     <!--Heading-->
     <h1>Hello World</h1>
     <h2>Hello World</h2>
@@ -25,9 +26,9 @@
     <h4>Hello World</h4>
     <h5>Hello World</h5>
     <h6>Hello World</h6>
-   
+
     <!-- Paragraph -->
-    <div>
+    <div class="name">
         <p>
             Lorem ipsum <mark>dolor</mark> sit amet, consectetur adipisicing elit. Eius, sed!
         </p>
@@ -43,22 +44,134 @@
     <hr>
 
     <!-- Html entities => Tab : &nbsp; copyright : &copy; -->
-    <a href="https://www.google.com"  target="_blank">go to google</a>
+    <a href="https://www.google.com" target="_blank">go to google</a>
     <br>
 
     <!-- image -->
-
     <img src="./img/favicon.png" alt="Logo" width="100" height="100" title="logo">
+    <br>
+
+    <!-- Day 3  -->
+    <figure>
+        <img src="./img/favicon.png" alt="">
+        <figcaption>
+            This is the logo
+        </figcaption>
+    </figure>
+
+    <picture>
+
+        <source media="(max-width:700px, max-height:500px)" srcset="./hills.jpg" width="700px">
+
+        <img src="./img/favicon.png" alt="">
+
+        <p>
+            varun
+            naveen
+            nandha
+        </p>
+
+        <!-- it cares about spaces and newline -->
+        <pre>
+            varun
+            ram
+            raja
+            naveen
+        </pre>
+
+    <!-- text formatting -->
+    <div style="text-align: left">
+
+            <b>VArun</b>
+
+            <i style="color: orange;">
+                <spna style="color: purple;">
+                    Lorem ipsum
+                </spna>
+                dolor sit amet consectetur adipisicing elit. Aspernatur, vitae. Maxime volupta</i>
+
+            <u>niam recusandae enimrepellat architecto repellendus molestias excepturi numquam natus ipsum totam. Unde magni,</u>
+
+            <del>varun</del><ins>Ram</ins> <br>
+
+            <strong>ve fugiat? Repellendus</strong><br>
+
+            <em class="name">atque voluptate,orporis ex quasi mollitia odio</em>
+            
+            
+    </div>
+
+    Varun<sub>2</sub>
+    Varun<sup>2</sup>
 
 
+    <div class="logo name" id="logo2">
+        <h1 style="color: orangered;">W<span style="color: blue;">inc.</span></h1>
+    </div>
 
+    <!-- lists -->
+
+    <ol class="list">
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+    </ol>
+
+    <ul>
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+        <li>this is order list</li>
+    </ul>
+
+    <dl>
+        <dt>Google</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum alias rem ratione ab tempore eius, tenetur commodi blanditiis fugiat neque delectus consequatur deleniti beatae ducimus esse repudiandae repellat aliquam adipisci.</dd>
+
+        <dt>Google</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum alias rem ratione ab tempore eius, tenetur commodi blanditiis fugiat neque delectus consequatur deleniti beatae ducimus esse repudiandae repellat aliquam adipisci.</dd>
+
+        <dt>Google</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum alias rem ratione ab tempore eius, tenetur commodi blanditiis fugiat neque delectus consequatur deleniti beatae ducimus esse repudiandae repellat aliquam adipisci.</dd>
+    </dl>
+
+    <!-- embed a map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125766.1297999328!2d78.05278243586652!3d9.917998690666511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c582b1189633%3A0xdc955b7264f63933!2sMadurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1620987742966!5m2!1sen!2sin" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <iframe src="index.html" title="W3Schools Free Online Web Tutorials"></iframe>
 
     
-    
+
+
+
+
+
+    </picture>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+.name{
+   background-color: skyblue;
+}
+.logo{
+    font-size: 30px;
+}
+.list{
+    list-style-type: lower-roman;
+}
