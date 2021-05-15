@@ -6,16 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
 </head>
 
 <body>
+
+    <img src="./img/facebook.svg" alt="" width="100px" title="image">
+    <i class="fab fa-facebook-f"></i>
+
     <!-- day4 Forms 
     
     attributes
     type, id, name, for, autofocus, value, required, maxlength, minlength, multiple, accept(file type)
     -->
 
-    <form method="GET" enctype="multipart/form-data">
+    <a href="https://www.audi.com/en/contact.html"></a>
+
+    <form action="insert_emails.php" method="GET" enctype="multipart/form-data">
+
         <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="username" autofocus required>
@@ -39,53 +47,100 @@
 
         <div>
             <label for="name">Date</label>
-            <input type="date" >
+            <input type="date">
         </div>
 
         <div>
             <label for="name">Time</label>
-            <input type="time" >
+            <input type="time">
         </div>
 
         <div>
             <label for="name">Time</label>
-            <input type="file"  accept="image/png, image/jpeg" multiple>
+            <input type="file" accept="image/png, image/jpeg" multiple>
         </div>
 
         <div>
             <label for="name">Local Time</label>
-            <input type="datetime-local" >
+            <input type="datetime-local">
         </div>
 
         <div>
             <label for="name">month</label>
-            <input type="month" >
+            <input type="month">
         </div>
 
         <div>
             <label for="name">week</label>
-            <input type="week" >
+            <input type="week">
         </div>
 
         <!-- mobile number -->
+
         <div>
-            <label for="name">Number2</label>
-            <input type="number" >
+            <label for="name">No. of items</label>
+            <input type="number">
         </div>
 
         <div>
-            <label for="name">Number3</label>
-            <input inputmode="numeric" >
+            <label for="name">Number</label>
+            <input inputmode="numeric">
         </div>
-       
+
         <div>
-            <label for="name">Number1</label>
-            <input type="tel" >
+            <label for="name">Telephone</label>
+            <input type="tel">
         </div>
 
-        <input type="reset" value="clear input">
+        <div>
+            <input type="range" name="" id="" value="">
+        </div>
 
-        <input type="submit" value="Finish">
+        <div>
+            <input type="reset" value="clear input">
+            <input type="submit" value="Finish">
+        </div>
+
+        <div>
+            <!-- radio button -->
+            <label for="male">Male</label><input type="radio" id="male" name="gender" value="male" >
+            Female<input type="radio" name="gender" value="female">
+            Transgender<input type="radio" name="gender" value="transgender">
+        </div>
+
+        <div>
+            Choose your favourite cars
+            <input type="checkbox" name="cars" id="" value="Audi">Audi
+            <input type="checkbox" name="cars" id="" value="Benq">Benq
+        </div>
+
+        <div>
+            <select name="inst" id="" multiple>
+                <option value="PEC">Paavai Engineering School</option>
+                <option value="PEC">Paavai Engineering Palvadi</option>
+                <option value="PEC">Paavai Engineering College</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="text" value="15/05/2021" name="timestamp" hidden>
+        </div>
+
+        <div>
+            <input type="text" value="varun" name="developer" disabled>
+        </div>
+
+        <div>
+            <input type="search" value="varun" name="developer" >
+        </div>
+
+        <div>
+            <input type="reset" value="clear input">
+            <input type="submit" value="Finish">
+        </div>
+
+
+
     </form>
 
 </body>
