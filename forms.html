@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- day4 Forms 
+    
+    attributes
+    type, id, name, for, autofocus, value, required, maxlength, minlength, multiple, accept(file type)
+    -->
+
+    <form method="GET" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="username" autofocus required>
+        </div>
+
+
+        <div>
+            <label for="name">Password</label>
+            <input type="password" name="pass1" minlength="8" maxlength="10">
+        </div>
+
+        <div>
+            <label for="name">Email</label>
+            <input type="email" name="pass1" minlength="8" maxlength="10">
+        </div>
+
+        <div>
+            <label for="name">Favourite Color</label>
+            <input type="color" name="pass1" minlength="8" maxlength="10">
+        </div>
+
+        <div>
+            <label for="name">Date</label>
+            <input type="date" >
+        </div>
+
+        <div>
+            <label for="name">Time</label>
+            <input type="time" >
+        </div>
+
+        <div>
+            <label for="name">Time</label>
+            <input type="file"  accept="image/png, image/jpeg" multiple>
+        </div>
+
+        <div>
+            <label for="name">Local Time</label>
+            <input type="datetime-local" >
+        </div>
+
+        <div>
+            <label for="name">month</label>
+            <input type="month" >
+        </div>
+
+        <div>
+            <label for="name">week</label>
+            <input type="week" >
+        </div>
+
+        <!-- mobile number -->
+        <div>
+            <label for="name">Number2</label>
+            <input type="number" >
+        </div>
+
+        <div>
+            <label for="name">Number3</label>
+            <input inputmode="numeric" >
+        </div>
+       
+        <div>
+            <label for="name">Number1</label>
+            <input type="tel" >
+        </div>
+
+        <input type="reset" value="clear input">
+
+        <input type="submit" value="Finish">
+    </form>
+
+</body>
+
+</html>
