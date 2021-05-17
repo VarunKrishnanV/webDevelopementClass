@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    color: #e4d617;
+    background-color: rgb(182, 40, 40);
+    padding: 20px;
+
+}
