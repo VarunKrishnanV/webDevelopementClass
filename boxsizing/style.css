@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+.border__box{
+    height: 100px;
+    width: 200px;
+    background-color: orangered;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 30px solid ;
+}
+
+.content__box{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0, 255, 98);
+    box-sizing: content-box;
+    padding: 20px;
+    border: 30px dashed rgba(128, 128, 128, 0.356);
+}

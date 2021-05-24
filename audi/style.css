@@ -29,3 +29,17 @@
    transform: scale(1.3);
    transition:  all 1s ease-in-out;
 }
+button{
+    width: 40%;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: black;
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.parent{
+    align-items: center;
+    justify-content: center;
+}
