@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: orange;    
+    margin: 30px;
+    /* transition-duration: 2s;
+    transition-property: background, width; */
+    /* transition-timing-function: linear/ease-in/ease-out/ease-in-out; */
+    /* transition-delay: 1s; */
+    transition: background 2s ease-in-out .2s, width 2s ease-in-out .2s;
+}
+
+p{
+    line-height: 100px;
+    text-align: center;
+}
+
+.item:hover{
+    width: 200px;
+    background: red;
+}
+
+
+.container{
+    background-color: paleturquoise;
+    width: 80vh;
+    padding: 20px;
+}    
+
+.box{
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgb(0, 204, 255);
+    transition-duration: 2000ms;
+    transition-property: width;
+    
+}    
+
+.container:hover .box{
+    width: 90%;
+}    
+
+.box1{
+    transition-timing-function: linear;
+}    
+
+.box2{
+    transition-timing-function: ease-in;
+}    
+
+.box3{
+    transition-timing-function: ease-out;
+}    
+
+.box4{
+    transition-timing-function: ease-in-out;
+}    
+
+.box5{
+    transition-timing-function: cubic-bezier(0, 0.83, 0.96, 0.4);
+}    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .item{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(255, 166, 0);
+    transition-duration: 5ms;
+    transition-property: background, width;
+    transition-timing-function: ease-in;
+    animation: move 1s ease-in backwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */
+
+
+/* .container{
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(255, 240, 107);
+}
+.item1{
+    transition: 3s linear;
+}
+.item2{
+    transition: 3s ease-in;
+}
+.item3{
+    transition: 3s ease-out;
+}
+.item4{
+    transition: 3s ease-in-out;
+}
+
+.container:hover .item{
+    width: 300px;
+} */
+
+/* .item:hover{
+
+}
+
+@keyframes move {
+    100%{
+        transform: translateX(200px);
+    }
+} */
